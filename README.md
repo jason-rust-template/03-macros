@@ -27,3 +27,6 @@
 -   &self.0
 - }
 - }
+
+# proc-macro = true  note
+- 只要在 cargo.toml 中声明了 proc-macro = true 整个 crate 都会作为 macro 导出
